@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="mysim" class="com.org.Airtel" init-method="doStartUp" destroy-method="doShutDown">
+    
+    </bean>
+    <bean id="myjio" class="com.org.Jio" init-method="doStartUp" destroy-method="doShutDown" >
+    
+    </bean>
+
+<bean id="fortune" class="com.org.spring.GoodLuckFortune"></bean>
+<bean id="mycoach" class="com.org.spring.cricket_Coach">
+<!--  setup constructor injection -->
+<constructor-arg ref="fortune"></constructor-arg>
+
+</bean>
+</beans>

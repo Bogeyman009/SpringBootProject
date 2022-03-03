@@ -1,0 +1,5 @@
+package com.org.spring;
+
+public class cricket_Coach implements Coach {
+
+}

@@ -1,0 +1,12 @@
+package com.org.Ecommerce;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+
+@Aspect
+public class AspectForum {
+	@Before("*.*.*(..)")
+	public void authentication() {
+		System.out.println("You are authorised");
+	}
+}

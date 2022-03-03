@@ -1,0 +1,17 @@
+package com.org;
+
+public class Airtel implements Sim {
+
+	@Override
+	public String calling() {
+		// TODO Auto-generated method stub
+		return "Welcome to airtel service .....!!";
+	}
+	public void doStartUp() {
+		System.out.println("My Airtel sim is started :init method");
+	}
+	
+	public void doShutDown() {
+		System.out.println("My Airtel sim is shutdown  : Destroy method");
+	}
+}

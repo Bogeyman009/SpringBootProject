@@ -1,0 +1,6 @@
+package com.org.spring;
+
+public interface Fortune {
+	public String fortuneService();
+	
+}

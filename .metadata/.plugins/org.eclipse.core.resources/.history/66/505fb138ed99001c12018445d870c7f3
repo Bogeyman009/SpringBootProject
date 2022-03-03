@@ -1,0 +1,14 @@
+package com.org.spring;
+
+public class GoodLuckFortune implements Fortune {
+
+	@Override
+	public String fortuneService() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+
+}

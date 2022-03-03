@@ -1,0 +1,13 @@
+package com.org.AOPExamp;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StudentAccountDao {
+	public List findAcc(boolean obj) {
+		if(obj) {
+			throw new RuntimeException();
+		}
+		ArrayList<Account> myacc=new ArrayList<Account>();
+	}
+}

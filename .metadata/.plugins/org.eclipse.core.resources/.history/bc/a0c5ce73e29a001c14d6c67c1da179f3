@@ -1,0 +1,16 @@
+package com.org.demo;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class WebController {
+	@RequestMapping("/src/sample")
+	public SampleResponse Sampple(@RequestParam(value="name",defaultValue="RestFul WebService")String name){
+		SampleResponse res=new SampleResponse();
+		res.setId(105);
+		res.setName("your service is : "+name);
+		return res;
+	}
+}

@@ -1,0 +1,17 @@
+package com.org.spring;
+
+public class cricket_Coach implements Coach {
+
+	@Override
+	public String workOut() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

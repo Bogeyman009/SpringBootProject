@@ -1,0 +1,11 @@
+package com.org;
+
+public class Airtel implements Sim {
+
+	@Override
+	public String calling() {
+		// TODO Auto-generated method stub
+		return "Welcome to airtel service";
+	}
+
+}

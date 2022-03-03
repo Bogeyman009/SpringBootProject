@@ -1,0 +1,5 @@
+package com.org.spring.setterBased;
+
+public class NeighboursHome implements UrbanClap {
+
+}

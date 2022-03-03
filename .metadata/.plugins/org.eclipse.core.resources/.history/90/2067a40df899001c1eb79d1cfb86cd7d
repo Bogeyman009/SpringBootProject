@@ -1,0 +1,14 @@
+package com.org.spring.setterBased;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	ClassPathXmlApplicationContext appcon=new ClassPathXmlApplicationContext("applicationContext.xml");
+	System.out.println("Loading....");
+	NeighboursHome n=appcon.getBean("myNeighhome",UrbanClap.class)
+	}
+
+}

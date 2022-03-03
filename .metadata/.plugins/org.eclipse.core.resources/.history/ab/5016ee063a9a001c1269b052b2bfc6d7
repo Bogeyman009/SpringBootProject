@@ -1,0 +1,15 @@
+package com.org.AOPBefore;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+AnnotationConfigApplicationContext annop =new AnnotationConfigApplicationContext(AOPConfig.class);
+
+Operation op =annop.getBean(Operation.class);
+op.msg();
+	}
+
+}

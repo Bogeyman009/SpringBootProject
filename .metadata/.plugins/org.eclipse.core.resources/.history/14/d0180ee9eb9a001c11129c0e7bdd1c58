@@ -1,0 +1,10 @@
+package com.org.demo;
+
+public class PostResponse {
+	int id;
+	String message,ref;
+
+	
+	
+	
+}

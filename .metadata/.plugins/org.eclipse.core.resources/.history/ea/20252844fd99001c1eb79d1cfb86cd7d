@@ -1,0 +1,16 @@
+package com.org.spring.autoWiring;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Company {
+	private Department dept;
+
+	public void setDept(Department dept) {
+		this.dept = dept;
+	}
+	
+	public void showDepartmentInfo() {
+		dept.showDepartment();
+	}
+}

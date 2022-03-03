@@ -1,0 +1,7 @@
+package com.org.demo;
+
+import java.util.List;
+
+public class StoreEmployee {
+	private List<Employee> employeeList;
+}

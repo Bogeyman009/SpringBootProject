@@ -1,0 +1,28 @@
+package com.org.demo;
+
+public class PostRequest {
+	int id;
+	String name;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setMessage(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void setRef(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

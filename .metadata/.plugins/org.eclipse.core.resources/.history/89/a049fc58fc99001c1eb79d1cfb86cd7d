@@ -1,0 +1,13 @@
+package com.org.spring.autoWiring;
+
+public class Company {
+	private Department dept;
+
+	public void setDept(Department dept) {
+		this.dept = dept;
+	}
+	
+	public void showDepartmentInfo() {
+		
+	}
+}

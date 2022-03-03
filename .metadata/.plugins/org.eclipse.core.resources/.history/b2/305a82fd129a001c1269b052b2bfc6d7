@@ -1,0 +1,5 @@
+package com.org.spring.autoWiring.constructorBased;
+
+public class TestService {
+
+}

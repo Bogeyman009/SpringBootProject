@@ -1,0 +1,11 @@
+package com.org;
+
+public class Jio implements Sim{
+
+	@Override
+	public String calling() {
+		// TODO Auto-generated method stub
+		return "WElcome to JIO services......!!";
+	}
+
+}

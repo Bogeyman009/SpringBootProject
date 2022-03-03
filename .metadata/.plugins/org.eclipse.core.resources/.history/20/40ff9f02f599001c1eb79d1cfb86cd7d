@@ -1,0 +1,6 @@
+package com.org.spring;
+
+public interface Coach {
+public String workOut();
+public String getDailyFortune();
+}

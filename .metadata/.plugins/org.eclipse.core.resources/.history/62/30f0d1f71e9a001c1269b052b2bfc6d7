@@ -1,0 +1,15 @@
+package com.org.AOPExamp;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+AnnotationConfigApplicationContext appcon=new AnnotationConfigApplicationContext(DemoAOP.class);
+
+StudentAccountDao stu=appcon.getBean("stu",StudentAccountDao.class);
+
+	}
+
+}

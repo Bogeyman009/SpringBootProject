@@ -1,0 +1,12 @@
+package com.org.AOPExamp;
+
+import org.aspectj.lang.annotation.After;
+import org.springframework.stereotype.Component;
+
+@org.aspectj.lang.annotation.Aspect
+@Component
+public class Aspect {
+	@After(" execution(* com.org.AOPExamp.*.*(..))")
+	
+	
+}

@@ -1,0 +1,9 @@
+package com.org.AOPExamp;
+
+import org.springframework.stereotype.Component;
+
+@Aspect
+@Component
+public class Aspect {
+	@After()
+}

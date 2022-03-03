@@ -1,0 +1,6 @@
+package com.org.AOPExamp;
+
+public class Account {
+private String name;
+private String code;
+}

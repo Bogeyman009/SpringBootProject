@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.org.spring.Coach"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.org.spring.setterBased.NeighboursHome"/>
+    <fullyQualifiedTypeName name="com.org.spring.setterBased.UrbanClap"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.org.spring.autoWiring.DepartmentImp"/>
+    <fullyQualifiedTypeName name="com.org.spring.autoWiring.Company"/>
+    <fullyQualifiedTypeName name="com.org.spring.autoWiring.constructorBased.SampleService"/>
+    <fullyQualifiedTypeName name="com.org.spring.autoWiring.AppConfig"/>
+    <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="com.org.AOPExamp.Account"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterThrowing"/>
+    <fullyQualifiedTypeName name="com.org.AOPExamp.DemoAOP"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.org.AOPExamp.StudentAccountDao"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Pointcut"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.JoinPoint"/>
+    <fullyQualifiedTypeName name="com.org.AOPBefore.Operation"/>
+    <fullyQualifiedTypeName name="com.org.AOPBefore.AOPConfig"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.After"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.EnableAspectJAutoProxy"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.org.Ecommerce.Config"/>
+    <fullyQualifiedTypeName name="com.org.Ecommerce.CheckOut"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+</qualifiedTypeNameHistroy>

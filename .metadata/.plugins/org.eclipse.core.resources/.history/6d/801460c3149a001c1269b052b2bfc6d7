@@ -1,0 +1,11 @@
+package com.org.spring.autoWiring.constructorBased;
+
+@Spring
+public class SpringBootWiredDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

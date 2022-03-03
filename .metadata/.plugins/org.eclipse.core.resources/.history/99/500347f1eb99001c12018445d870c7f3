@@ -1,0 +1,7 @@
+package com.org.spring;
+
+public interface GoodLuckFortune extends Fortune {
+public String fortuneService() {
+	return "Good Luck";
+}
+}

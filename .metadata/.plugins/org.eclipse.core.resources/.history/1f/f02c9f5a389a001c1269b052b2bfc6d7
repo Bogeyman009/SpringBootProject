@@ -1,0 +1,7 @@
+package com.org.AOPBefore;
+
+public class Operation {
+	public void msg() {
+		System.out.println("Msg method incoked");
+	}
+}

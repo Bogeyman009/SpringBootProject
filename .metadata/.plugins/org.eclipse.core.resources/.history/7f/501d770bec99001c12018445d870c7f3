@@ -1,0 +1,5 @@
+package com.org.spring;
+
+public interface GoodLuckFortune implements Fortune {
+
+}

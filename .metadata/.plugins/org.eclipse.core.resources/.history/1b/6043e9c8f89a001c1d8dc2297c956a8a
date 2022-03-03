@@ -1,0 +1,8 @@
+package com.org.demo;
+
+public class Employee {
+	private int id;
+	private String FirstName;
+	private String LastName;
+	private String email;
+}
